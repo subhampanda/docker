@@ -13,7 +13,10 @@ id:3600
 docker  rename    container  subham_web  (rename  web )
 ------------------------------
 docker  diff            ( what the  things are happen  in contaner )
- 
+--------------------------------
+docker commit  --author  "subham panda "  -m  "this is first  commit"  container_id   my_start_web  (image from the   container)
+----------------------------------------
+
 
 
 
