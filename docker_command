@@ -1,0 +1,20 @@
+
+docker run  -it -d   ubuntu   /bin/bash   ( docker pull  image  and  run the  container)    
+it -- interactive mode , tty  mode
+d attach  mode
+------------------------ 
+docker  start  -ai  container-id    (start the  docker container-id )
+------------------------------
+docker top   container-id (running  the  process  container-id )
+---------------------------
+docker container  run  -d  -p 3600:80  --name test1_web  nginx  (port mapping)
+id:3600
+----------------------------
+docker  rename    container  subham_web  (rename  web )
+------------------------------
+docker  diff            ( what the  things are happen  in contaner )
+ 
+
+
+
+
