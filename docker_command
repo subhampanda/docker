@@ -20,6 +20,9 @@ docker  image tag centos  subhampanda/centos
 docker login                                                  [docker  image  to  docker  hub ]
 docker  push  subhampanda/centos
 ----------------------------------------------
+docker  image  save     image_id  > myweb.tar
+docker  image  load  < myweb.tar                                 [docker  image_id  and  conver into  tar  file   ]
+
 
 
 
