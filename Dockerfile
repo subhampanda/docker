@@ -1,3 +1,5 @@
+Vi  Dockerfile  
+
 FROM  centos                      [ taking image from  docker hub]
 RUN yum   update  && yum   install  -y  tree   &&  yum    install -y  wget
 RUN yum   install  -y  docker     [RUN - run  the  command]
@@ -15,3 +17,5 @@ RUN pwd>/tmp/3rdpwd.txt
 COPY  subham.txt  /               [COPY -  copy  the  for  running directory  ]
 CMD ["python"]       [any   shell  at  starting  time]
 ENTRYPOINT["tree"]   [any  command at  starting time]
+
+docker  image build -t  myimage:1 .
