@@ -13,3 +13,4 @@ RUN pwd>/tmp/2ndpwd.txt
 WORKDIR  /tmp                     [WORKDIR -  Run  on  the  workdirectory]
 RUN pwd>/tmp/3rdpwd.txt
 COPY  subham.txt  /               [COPY -  copy  the  for  running directory  ]
+CMD ["python"]
