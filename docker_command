@@ -4,6 +4,9 @@ it -- interactive mode , tty  mode
 d attach  mode
 ------------------------ 
 docker  start  -ai  container-id    (start the  docker container-id )
+
+docker  srart  container_id
+docker  attach  container_id
 ------------------------------
 docker top   container-id (running  the  process  container-id )
 ---------------------------
