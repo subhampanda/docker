@@ -15,6 +15,7 @@ RUN pwd>/tmp/2ndpwd.txt
 WORKDIR  /tmp                     [WORKDIR -  Run  on  the  workdirectory]
 RUN pwd>/tmp/3rdpwd.txt
 COPY  subham.txt  /               [COPY -  copy  the  for  running directory  ]
+ADD subham.tar.gz /               [COPY   - copy  after  unzip the the file]
 CMD ["python"]       [any   shell  at  starting  time]
 ENTRYPOINT["tree"]   [any  command at  starting time]
 
