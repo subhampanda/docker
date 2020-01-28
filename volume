@@ -1,3 +1,41 @@
+volume
+ container  to  container
+vi Dockerfile 
+FROM  ubuntu
+VOLUME  ["/data"]  [create   a data folder in top label directory   in  container ]
+docker  build  -t   myimg   .
+docker run  --name  mycont1   -it    image-name  /bin/bash
+
+
+docker run  -it    --name  mycont3   --privileged=true   --volumes-from mycont1   ubuntu    //bin/bash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hostmachine to  container   
+
+
+
+
+
 docker volume create web-data-vol1
 docker  inspect   web-data-vol1
 cd  /var/lib/docker/volumes/web-data-vol1
