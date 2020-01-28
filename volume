@@ -12,6 +12,11 @@ docker run  -it    --name  mycont2   --privileged=true   --volumes-from mycont1 
 
 -------------------------------------
 
+docker  run -it  --name container-name-old  -v /subham   ubuntu //bin/bash  [connecting a volume of   subham  in container container-name-old]
+docker run  -it    --name   container-name-new   --privileged=true   --volumes-from   container-name-old   ubuntu    //bin/bash
+
+
+
 
 
 
