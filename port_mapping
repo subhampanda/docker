@@ -1,0 +1,4 @@
+docker run -td -p 80(host):80(container) --name  container-name   image-name //bin/bash
+           container port always by deafault port
+           
+           
