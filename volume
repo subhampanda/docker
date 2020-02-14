@@ -16,35 +16,8 @@ docker  run -it  --name container-name-old  -v /subham   ubuntu //bin/bash  [con
 docker run  -it    --name   container-name-new   --privileged=true   --volumes-from   container-name-old   ubuntu    //bin/bash
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 hostmachine to  container   
-
-
-
-
+---------------------------------
 
 docker volume create web-data-vol1
 docker  inspect   web-data-vol1
