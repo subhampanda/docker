@@ -24,5 +24,8 @@ docker  inspect   web-data-vol1
 cd  /var/lib/docker/volumes/web-data-vol1
 docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd:2.4
 
+sudo docker run -it --name my-volume-test -v /root/subh-volume:/data centos /bin/bash
+
+
 
 
