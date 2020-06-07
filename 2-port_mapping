@@ -1,4 +1,4 @@
-docker run -it -d -p 80(host):80(container) --name  container-name   image-name //bin/bash
+docker run -it -d -p 80(host):80(container) --name  container-name   image-name /bin/bash
            container port always by deafault port
  docker  run  -it  -d  -p 3600:80  --name  subahmcentos1 httpd  
 
