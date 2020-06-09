@@ -6,9 +6,9 @@ VOLUME  ["/data"]  [create   a data folder in top label directory   in  containe
 docker  build  -t   myimg   .
 docker run  --name  mycont1   -it    image-name  /bin/bash
 
-docker run  -it    --name  mycont2(new)   --privileged=true   --volumes-from mycont1(old)   ubuntu    //bin/bash
+docker run  -it    --name  mycont2(new)   --privileged=true   --volumes-from mycont1(old)   ubuntu    /bin/bash
 
-docker run  -it    --name  mycont2   --privileged=true   --volumes-from mycont1   ubuntu    //bin/bash
+docker run  -it    --name  mycont2   --privileged=true   --volumes-from mycont1   ubuntu    /bin/bash
 
 -------------------------------------
 
